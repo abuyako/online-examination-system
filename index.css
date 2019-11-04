@@ -1,0 +1,30 @@
+
+li  {
+    list-style-type: none;
+    float: left;
+    display: block;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 19px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+li:hover {
+    background-color: aquamarine;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* .fix01 {
+    margin-right: 200px;
+    height: 100px;
+} */
