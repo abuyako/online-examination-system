@@ -41,7 +41,7 @@ if(!isset($_SESSION['username'])){
             <li><a href="subject.php">Software development</a></li>
             <li><a href="subject.php">Project Managemant</a></li>
         </ul>
-        <button class="button"><span>Enroll</span></button>
+        <button class="button"><a href="subject.php"><span>Enroll</span></a></button>
         </div>
         <div id="menu1" class="tab-pane fade">
         <h1><a href="exam.php">Exam</a></h1>
