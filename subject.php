@@ -15,13 +15,23 @@
         <div class="header">
             <h1> Subject</h1>
 
-            <ul>
+            <!-- <ul>
             <li><a href="exam.php">Data structure</a></li>
             <li><a href="exam.php">Javascript</a></li>
             <li><a href="exam.php">Object oriented</a></li>
             <li><a href="exam.php">Software development</a></li>
             <li><a href="exam.php">Project Managemant</a></li>
-        </ul>
+        </ul> -->
+
+    <form action="/action_page.php" method="get">
+        <input type="checkbox" name="subject1" value=""> Data structure <br>
+        <input type="checkbox" name="subject2" value=""> Javascript <br>
+        <input type="checkbox" name="subject3" value=""> Object oriented <br>
+        <input type="checkbox" name="subject4" value=""> Software development <br>
+        <input type="checkbox" name="subject5" value=""> project management <br>
+        <button  type="" class="button"><a href="home.php"><span>Add</span></a></button>
+    </form>
+
         </div>
     </div>
 </body>
