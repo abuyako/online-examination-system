@@ -23,7 +23,7 @@ if(!isset($_SESSION['username'])){
     
 </head>
 <body>
-    <div class="container">
+    <div class="container ">
     <h1 style="text-align: center; padding:20px"> Online Examination </h1>
     <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#home" class="online01">Subject</a></li>
