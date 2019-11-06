@@ -29,8 +29,9 @@ if(!isset($_SESSION['username'])){
         <li class="active"><a data-toggle="tab" href="#home" class="online01">Subject</a></li>
         <li><a data-toggle="tab" href="#menu1" class="online01">Exam</a></li>
         <li><a data-toggle="tab" href="#menu2" class="online01">Result</a></li>
+        <li><a data-toggle="tab" href="#logout" class="online01">logout</a></li>
     </ul>
-
+    
     <div class="tab-content">
         <div id="home" class="tab-pane fade in active">
         <h1>Subject</h1>
@@ -50,6 +51,10 @@ if(!isset($_SESSION['username'])){
         <div id="menu2" class="tab-pane fade">
         <h1><a href="result.php">Result</a></h1>
         <p>Result is ready for you</p>
+        </div>
+        <div id="logout" class="tab-pane fade">
+        <h1><a href="logout.php">Logout</a></h1>
+        <p> Here you can logout </p>
         </div>
     </div>
     </div>
