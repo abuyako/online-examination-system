@@ -21,23 +21,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav" >
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
                   </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Add question</a>
+                <a class="nav-link" href="questadd.php">Add question</a>
                 </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Question list</a>
+              <a class="nav-link" href="questlist.php">Question list</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">User</a>
+              <a class="nav-link" href="user.php">User</a>
             </li>
           </ul>
     </div>
   </nav>
      </div>
-
+      <div class="container">
+        <h1>Welcome Admin</h1>
+      </div>
       <div class="container jumbotron mt-5 fix03">
           <h2>Examination System</h2>
       </div>
