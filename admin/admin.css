@@ -1,0 +1,19 @@
+.fix{
+    background-color: aquamarine;
+}
+
+.fix02{
+    width: 30%;
+}
+button {
+    background-color: aquamarine !important;
+    color: #fff !important;
+    width: 25%;
+    height: 40px;
+    margin-left: 150px;
+}
+.fix03{
+    background-color: aquamarine;
+    color: #fff;
+    text-align: center;
+}
