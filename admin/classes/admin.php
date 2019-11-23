@@ -16,7 +16,7 @@ class Admin{
 		$adminUser = mysqli_real_escape_string($this->db->link, $adminUser);
 		$adminPass = mysqli_real_escape_string($this->db->link, md5($adminPass));
 		
-		$query = "select * from tbl_admin where adminUser = 'abuyako' and adminPass = '12345'";
+		$query = "select * from admin where adminUser = 'abuyako' and adminPass = '12345'";
 		$result = $this->db->select($query);
 		if($result !=false){
 			$value = $result->fetch_assoc();
