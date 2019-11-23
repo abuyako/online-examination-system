@@ -20,11 +20,11 @@
       <form action="" method="">
         <div class="form-group">
         <label for="username">Username</label>
-        <input type="text" class="form-control" name="username" placeholder="Enter username">
+        <input type="text" class="form-control" name="username" placeholder="Enter username" required>
         </div>
         <div class="form-group">
         <label for="Password">Password</label>
-        <input type="text" class="form-control" name="Password" placeholder="Enter password">
+        <input type="text" class="form-control" name="Password" placeholder="Enter password" required>
         </div>
         <button type="submit" class="btn">Submit</button>
       </form>

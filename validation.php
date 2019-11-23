@@ -2,7 +2,8 @@
 session_start();
 
 // create connection
-$con = mysqli_connect('localhost', 'root', 'kiduku', 'online_exam');
+$con = mysqli_connect('localhost', 
+'root', 'kiduku', 'online_exam');
 
 
 // create variable that will stored in those variables.form-control.
@@ -10,7 +11,8 @@ $name = $_POST['username'];
 $pass =$_POST['password'];
 
 //writting the query variable to select table names
-$s = "select * from users where username = '$name' && password = '$pass'";
+$s = "select * from users where username = 
+'$name' && password = '$pass'";
 
 //now create a result variable to store the query
 $result = mysqli_query($con, $s);
