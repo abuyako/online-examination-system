@@ -11,19 +11,19 @@ class Admin{
 		$this->fm = new Format();
 	}
 	public function getAdminData($data){
-		$adminUser = $this->fm->validation($data['adminUser']);
-		$adminPass = $this->fm->validation($data['adminPass']);
+		$adminUser = $this->fm->validation($data['username']);
+		$adminPass = $this->fm->validation($data['password']);
 		$adminUser = mysqli_real_escape_string($this->db->link, $adminUser);
 		$adminPass = mysqli_real_escape_string($this->db->link, md5($adminPass));
 		
-		$query = "select * from admin where adminUser = 'abuyako' and adminPass = '12345'";
+		$query = "select * from admin where username = 'abuyako' and password = '12345'";
 		$result = $this->db->select($query);
 		if($result !=false){
 			$value = $result->fetch_assoc();
 			Session::init();
 			Session::set("adminLogin",true);
-			Session::init("adminUser",$value['adminUser']);
-			Session::init("adminId",$value['adminId']);
+			Session::init("username",$value['username']);
+			Session::init("password",$value['password']);
 			header("Location:index.php");
 			
 		}else{
