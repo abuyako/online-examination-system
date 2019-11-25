@@ -27,6 +27,11 @@
         <input type="text" class="form-control" name="Password" placeholder="Enter password" required>
         </div>
         <button type="submit" class="btn">Submit</button>
+        <?php
+				if(isset($adminData)){
+					echo $adminData;
+				}
+				?>
       </form>
      </div>
 

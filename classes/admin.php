@@ -21,7 +21,7 @@ class Admin{
 		if($result !=false){
 			$value = $result->fetch_assoc();
 			Session::init();
-			Session::set("adminLogin",true);
+			Session::set("fix02",true);
 			Session::init("username",$value['username']);
 			Session::init("password",$value['password']);
 			header("Location:index.php");

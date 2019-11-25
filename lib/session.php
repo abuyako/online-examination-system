@@ -17,7 +17,7 @@ class Session{
 	 }
 	 public static function checkAdminSession(){
 	 	self::init();
-	 	if (self::get("adminLogin") == false) {
+	 	if (self::get("fix02") == false) {
 	 		self::destroy();
 	 		header("Location:login.php");
 	 	}
@@ -25,7 +25,7 @@ class Session{
 	 
 	 public static function checkAdminLogin(){
 	 	self::init();
-	 	if (self::get("adminLogin") == true) {
+	 	if (self::get("fix02") == true) {
 	 		header("Location:index.php");
 	 	}
 	 }
