@@ -1,1 +1,0 @@
-Online Examination System Is the online system that allows the users to register and login into the system and star doing the examination and get the quicky answers.
